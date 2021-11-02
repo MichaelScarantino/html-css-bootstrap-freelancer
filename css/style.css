@@ -1,0 +1,66 @@
+/* COMMON */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* HEADER */
+header{
+    background-color: #2d3e50;
+    padding: 30px 0;    
+}
+
+.brand h3{
+    color: white;
+    margin: 0;
+}
+
+.menus-header li{
+    display: inline-block;
+    margin-left: 15px;
+
+}
+
+.menus-header a{
+    color: white;
+    font-size: 20px;
+}
+
+.burger-header{
+    text-align: right;
+}
+
+.burger-header{
+    font-size: 25px;
+    color: gray;
+}
+
+.burger-header i{
+    border: 1px solid white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) {
+    /* HEADER */
+    .brand h3{
+        font-size: 30px;
+    }
+    
+    .menus-header{
+        text-align: center;
+    }
+
+}
+
+
+/* MAIN */
+
+/* FOOTER */
+
