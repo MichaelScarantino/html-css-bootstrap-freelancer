@@ -1,4 +1,8 @@
 /* COMMON */
+body{
+    font-size: 20px;
+}
+
 .ms_container{
     width: 60%;
     margin: 0 auto;
@@ -56,6 +60,10 @@ h2,
 
 section{
     padding: 40px 0;
+}
+
+.text-blue{
+    color: #1abc9c;
 }
 
 /* HEADER */
@@ -135,7 +143,7 @@ header{
 /* about */
 .about-main{
     background-color: #1abc9c;
-    padding: 30px 0;
+    padding: 100px 0;
     color: white;
 }
 
@@ -159,9 +167,41 @@ header{
 }
 
 /* FOOTER */
+.footer-info{
+    background-color: #3a556d;
+}
 
+.footer-content{
+    text-align: center;
+    padding: 15px 0;
+}
 
+.social-icon{
+    position: relative;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border:1px solid white;
+    color: white;
+}
 
+.social-icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.footer-copy{
+    background-color: #2d3e50;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+.footer-copy p{
+    margin-bottom: 0;
+}
 
 
 
@@ -169,7 +209,7 @@ header{
 @media screen and (min-width: 768px) {
     /* COMMON */
     h2{
-        font-size: 40px;
+        font-size: 50px;
     }
 
     h3{
@@ -178,7 +218,7 @@ header{
     
     /* MAIN */
     .jumbo-text h1{
-        font-size: 60px;
+        font-size: 70px;
     }
 
     /* portfolio section */
