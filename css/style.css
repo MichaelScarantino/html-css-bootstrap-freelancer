@@ -52,6 +52,12 @@ img{
     color: white;
 }
 
+/* common btn */
+.btn-white{
+    border-color: white;
+    color: white;
+}
+
 /* common stars */
 .stars{
     font-size: 30px;
@@ -162,17 +168,19 @@ header{
 }
 
 /* form section */
-.form-attributes{
-    padding: 10px 0;
-    border-bottom: 1px solid lightgrey;
-}
-
-.msg{
-    padding-bottom: 60px;
-}
-
-.form-attributes:last-child{
+.form-content input,
+.form-content textarea {
     border: none;
+    border-bottom: 1px solid lightgray;
+    border-radius: 0;
+    padding-left: 0;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: lightgray;
 }
 
 /* FOOTER */
