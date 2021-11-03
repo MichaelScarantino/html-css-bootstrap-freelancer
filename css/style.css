@@ -52,10 +52,19 @@ img{
     color: white;
 }
 
+
+
 /* common btn */
 .btn-white{
+    background-color: #1abc9c;
     border-color: white;
     color: white;
+}
+
+.ms_btn-green{
+    border-color: #1abc9c;
+    color: white;
+    background-color: #1abc9c;
 }
 
 /* common stars */
@@ -176,6 +185,11 @@ header{
     padding-left: 0;
     padding-bottom: 20px;
     font-size: 20px;
+    
+}
+
+.form-control::placeholder{
+    color: black;
 }
 
 .form-control:focus{
